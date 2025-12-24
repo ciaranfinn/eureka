@@ -1,9 +1,13 @@
 ---
 import "../style/global.css";
 
-import { WEBSITE_TITLE } from "../config";
+import { WEBSITE_TITLE, WEBSITE_DESCRIPTION } from "../config";
 
-const { title, description, image = "/og-image.png" } = Astro.props;
+const {
+  title,
+  description = WEBSITE_DESCRIPTION,
+  image = "/og-image.png",
+} = Astro.props;
 ---
 
 <head>

@@ -60,11 +60,19 @@ h6 {
 a {
   color: var(--link-color);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Make keyboard focus visible for accessibility */
+a:focus-visible {
+  outline: 2px dashed var(--link-color);
+  outline-offset: 3px;
 }
 
 nav a {
