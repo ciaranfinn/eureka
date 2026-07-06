@@ -77,9 +77,9 @@ This website is not directed to children under the age of 13, and I do not knowi
 
 Depending on where you live, you may have rights regarding personal information that I hold about you, such as requesting access to, correction of, or deletion of that information where applicable.
 
-Because this website collects very little personal information, the main personal information I may hold is email correspondence that you choose to send me. I can respond to requests about personal information that I hold, but I do not have direct access to GitHub Pages hosting logs, Squarespace DNS or domain infrastructure data, or other technical records controlled by those providers.
+Because this website collects very little personal information, the main personal information I may hold is email correspondence that you choose to send me. I can respond to requests about personal information that I hold, such as email correspondence in my own mailbox, but I do not have direct access to or control over records controlled by service providers such as GitHub, Squarespace, or Apple.
 
-Technical information relating to website hosting and DNS infrastructure is processed by [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Squarespace](https://www.squarespace.com/privacy) in accordance with their respective privacy policies.
+Technical information relating to website hosting and DNS infrastructure is processed by [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Squarespace](https://www.squarespace.com/privacy) in accordance with their respective privacy policies. Email-related information processed by Apple is handled in accordance with the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 
 If you have a privacy-related question or would like to make a request regarding personal information I hold, you can contact me at [me@ciaranfinn.dev](mailto:me@ciaranfinn.dev). If you contact me by email, I will process the information in your message as described in the Email section above.
 
