@@ -2,13 +2,19 @@
 import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import { WEBSITE_TITLE, WEBSITE_DESCRIPTION } from "../config";
+
+const frontmatter = Astro.props.frontmatter ?? {};
+const title = Astro.props.title ?? frontmatter.title ?? WEBSITE_TITLE;
+const description =
+  Astro.props.description ?? frontmatter.description ?? WEBSITE_DESCRIPTION;
 ---
 
 <!doctype html>
 <html lang="en">
-  <Head title={WEBSITE_TITLE} description={WEBSITE_DESCRIPTION} />
+  <Head title={title} description={description} />
   <body>
-    <main>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
     <Footer />

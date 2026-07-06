@@ -13,11 +13,13 @@ https://github.com/HermanMartinus/bearblog/blob/257b4d32150df0eed3334d4db7894f0f
   --background-color: #fff;
   --heading-color: #222;
   --text-color: #444;
-  --link-color: #3273dc;
-  --visited-color: #8b6fcb;
+  --link-color: #1f5fbf;
+  --visited-color: #7657c8;
+  --focus-color: #1f5fbf;
   --code-background-color: #f2f2f2;
   --code-color: #222;
   --blockquote-color: #222;
+  --border-color: #999;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,11 +28,17 @@ https://github.com/HermanMartinus/bearblog/blob/257b4d32150df0eed3334d4db7894f0f
     --heading-color: #eee;
     --text-color: #ddd;
     --link-color: #8cc2dd;
-    --visited-color: #8b6fcb;
+    --visited-color: #a991ee;
+    --focus-color: #f7d774;
     --code-background-color: #000;
     --code-color: #ddd;
     --blockquote-color: #ccc;
+    --border-color: #bbb;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -45,6 +53,23 @@ body {
   overflow-wrap: break-word;
   line-height: 1.5;
   color: var(--text-color);
+}
+
+.skip-link {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 10;
+  padding: 8px 12px;
+  color: var(--background-color);
+  background: var(--heading-color);
+  border-radius: 3px;
+  transform: translateY(-120%);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(20px);
 }
 
 h1,
@@ -65,13 +90,16 @@ a {
   text-underline-offset: 2px;
 }
 
+a:visited {
+  color: var(--visited-color);
+}
+
 a:hover {
   text-decoration-thickness: 2px;
 }
 
-/* Make keyboard focus visible for accessibility */
-a:focus-visible {
-  outline: 2px dashed var(--link-color);
+*:focus-visible {
+  outline: 3px solid var(--focus-color);
   outline-offset: 3px;
 }
 
@@ -93,8 +121,21 @@ main {
   line-height: 1.6;
 }
 
+main:focus {
+  outline: none;
+}
+
 table {
   width: 100%;
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.4rem;
+  border: 1px solid var(--border-color);
 }
 
 hr {
@@ -103,6 +144,12 @@ hr {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
+}
+
+video,
+iframe {
   max-width: 100%;
 }
 
@@ -115,8 +162,8 @@ code {
 }
 
 blockquote {
-  border-left: 1px solid #999;
-  color: var(--code-color);
+  border-left: 3px solid var(--border-color);
+  color: var(--blockquote-color);
   padding-left: 20px;
   font-style: italic;
 }
@@ -124,6 +171,13 @@ blockquote {
 footer {
   padding: 25px 0;
   text-align: center;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .title:hover {
@@ -157,6 +211,8 @@ ul.blog-posts {
 
 ul.blog-posts li {
   display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 ul.blog-posts li span {
@@ -165,4 +221,12 @@ ul.blog-posts li span {
 
 ul.blog-posts li a:visited {
   color: var(--visited-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
 }

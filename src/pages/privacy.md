@@ -1,5 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
+title: Privacy Policy | Ciarán Finn
+description: Privacy policy for ciaranfinn.dev.
 ---
 
 # Privacy Policy
