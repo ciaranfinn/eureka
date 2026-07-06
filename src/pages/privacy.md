@@ -16,12 +16,14 @@ This website is a static site hosted on GitHub Pages. It does not have user acco
 
 I do not directly collect personal information from ordinary browsing of this website. I do not receive your name, email address, or other contact information unless you choose to contact me separately.
 
-When you visit this website, GitHub, as the hosting provider, may automatically process standard technical information necessary to deliver, secure, and operate the site. This may include:
+When you visit this website, GitHub, as the hosting provider, may automatically collect and process standard technical information necessary to deliver, secure, and operate the site. For example, this may include:
 
 - IP address
 - Browser and device information, such as your browser’s User-Agent
 - Pages requested and referring URL
 - Date and time of requests
+
+GitHub may use this information to provide hosting, maintain security, prevent abuse, troubleshoot issues, and operate its infrastructure. I do not have direct access to or control over GitHub’s hosting logs. For full details about GitHub’s processing, see the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 GitHub may process this information to provide hosting, maintain security, prevent abuse, and operate its infrastructure. I do not have direct access to or control over GitHub’s hosting logs. For more information, see the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
@@ -75,9 +77,11 @@ This website is not directed to children under the age of 13, and I do not knowi
 
 Depending on where you live, you may have rights regarding personal information that I hold about you, such as requesting access to, correction of, or deletion of that information where applicable.
 
-Because this website collects very little personal information, the primary information I may hold is email correspondence that you choose to send me. Technical information relating to website hosting and DNS infrastructure is processed by [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Squarespace](https://www.squarespace.com/privacy) in accordance with their respective privacy policies.
+Because this website collects very little personal information, the main personal information I may hold is email correspondence that you choose to send me. I can respond to requests about personal information that I hold, but I do not have direct access to GitHub Pages hosting logs, Squarespace DNS or domain infrastructure data, or other technical records controlled by those providers.
 
-If you have a privacy-related question or would like to make a request regarding personal information I hold, you can contact me at [me@ciaranfinn.dev](mailto:me@ciaranfinn.dev).
+Technical information relating to website hosting and DNS infrastructure is processed by [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Squarespace](https://www.squarespace.com/privacy) in accordance with their respective privacy policies.
+
+If you have a privacy-related question or would like to make a request regarding personal information I hold, you can contact me at [me@ciaranfinn.dev](mailto:me@ciaranfinn.dev). If you contact me by email, I will process the information in your message as described in the Email section above.
 
 ## Changes to this policy
 
