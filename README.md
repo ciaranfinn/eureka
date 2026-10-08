@@ -17,13 +17,12 @@ Then open [localhost:4321](http://localhost:4321).
 
 ## Commands
 
-
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Start the local development server |
-| `npm run build` | Build the site to `dist/` |
-| `npm run preview` | Preview the production build locally |
-| `npm run format:check` | Check formatting with Prettier |
-| `npm run format:write` | Format files with Prettier |
+| Command                | Description                          |
+| ---------------------- | ------------------------------------ |
+| `npm run dev`          | Start the local development server   |
+| `npm run build`        | Build the site to `dist/`            |
+| `npm run preview`      | Preview the production build locally |
+| `npm run format:check` | Check formatting with Prettier       |
+| `npm run format:write` | Format files with Prettier           |
 
 Pushes to `main` are built and deployed to GitHub Pages automatically.
