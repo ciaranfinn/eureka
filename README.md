@@ -1,16 +1,29 @@
-# Personal Website
+# Eureka
 
-## 🧞 Commands
+Eureka builds and publishes [ciaranfinn.dev](https://ciaranfinn.dev), my little corner of the internet. It’s where I introduce myself and share the work I enjoy across machine learning, agentic systems, and product building.
 
-All commands are run from the root of the project, from a terminal:
+Built with [Astro](https://astro.build/), TypeScript, and CSS, and deployed with GitHub Pages.
 
-| Command                   | Action                                           |
-| ------------------------- | ------------------------------------------------ |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run format:check`    | Check code formatting with Prettier              |
-| `npm run format:write`    | Format code with Prettier                        |
+## Run locally
+
+Use Node.js 20 (to match CI) and npm.
+
+```sh
+npm install
+npm run dev
+```
+
+Then open [localhost:4321](http://localhost:4321).
+
+## Commands
+
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Build the site to `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run format:check` | Check formatting with Prettier |
+| `npm run format:write` | Format files with Prettier |
+
+Pushes to `main` are built and deployed to GitHub Pages automatically.
