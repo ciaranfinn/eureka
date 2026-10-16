@@ -1,9 +1,23 @@
-<section aria-labelledby="intro-heading">
-  <h1 id="intro-heading">Hi, I’m Ciarán.</h1>
+---
+// Profile image temporarily disabled until a new photo is available.
+// import { Image } from "astro:assets";
+// import profileImage from "../assets/profile.webp";
+// Restore the Image component inside .profile-intro when the new photo is ready.
+---
 
-  <p>
-    <em>Pronounced [KEER-awn].</em>
-  </p>
+<section class="intro" aria-labelledby="intro-heading">
+  <div class="profile-intro">
+    <div class="profile-copy">
+      <h1 id="intro-heading">
+        Hi, I’m Ciarán&nbsp;
+        <span class="wave" aria-hidden="true">
+          👋
+        </span>
+      </h1>
+
+      <p class="pronunciation">Pronounced “KEER-awn”</p>
+    </div>
+  </div>
 
   <p>
     I’m a principal machine learning engineer focused on building machine
@@ -16,11 +30,95 @@
   </p>
 </section>
 
-<section aria-label="Contact">
+<section class="experience" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Experience</h2>
+
+  <article class="company">
+    <header class="company-header">
+      <div>
+        <h3>
+          <a href="https://www.workday.com/">Workday, Inc.</a>
+        </h3>
+        <p>Full-time</p>
+      </div>
+    </header>
+
+    <ol class="roles">
+      <li class="current-role">
+        <h4>Principal Machine Learning Engineer</h4>
+        <p class="role-meta">May 2026 – Present</p>
+        <p class="role-location">New York, New York, United States</p>
+      </li>
+      <li>
+        <h4>Senior Machine Learning Engineer</h4>
+        <p class="role-meta">May 2023 – May 2026</p>
+        <p class="role-location">New York, New York, United States</p>
+      </li>
+      <li>
+        <h4>Machine Learning Engineer</h4>
+        <p class="role-meta">Aug 2021 – May 2023</p>
+        <p class="role-location">Pleasanton, California, United States</p>
+      </li>
+      <li>
+        <h4>Software Development Engineer</h4>
+        <p class="role-meta">Jul 2018 – Aug 2021</p>
+        <p class="role-location">Pleasanton, California, United States</p>
+      </li>
+    </ol>
+  </article>
+
+  <article class="company compact-company">
+    <header class="company-header">
+      <div>
+        <h3>
+          <a href="https://www.workday.com/">Workday, Inc.</a>
+        </h3>
+      </div>
+    </header>
+    <ol class="roles">
+      <li>
+        <h4>Software Engineer</h4>
+        <p class="role-meta">Jan 2017 – Aug 2017</p>
+        <p class="role-location">County Dublin, Ireland</p>
+      </li>
+    </ol>
+  </article>
+
+  <article class="company compact-company">
+    <header class="company-header">
+      <div>
+        <h3>
+          <a href="https://olytico.com/">Olytico</a>
+        </h3>
+      </div>
+    </header>
+    <ol class="roles">
+      <li>
+        <h4>Software Engineer</h4>
+        <p class="role-meta">Jun 2016 – Jan 2017</p>
+        <p class="role-location">Greater Dublin, Ireland</p>
+      </li>
+    </ol>
+  </article>
+</section>
+
+<section class="contact" aria-label="Contact">
   <p>
-    For conversations about machine learning, agentic systems, or potential
-    collaborations, reach me at{" "}
-    <a href="mailto:me@ciaranfinn.dev">me@ciaranfinn.dev</a> or on{" "}
-    <a href="https://www.linkedin.com/in/ciaranfinn">LinkedIn</a>.
+    You can contact me by <a href="mailto:me@ciaranfinn.dev">email</a> or
+    connect on{" "}
+    <a class="social-link" href="https://www.linkedin.com/in/ciaranfinn">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"></path>
+      </svg>
+      LinkedIn
+    </a>
+    . Older experiments, personal projects, and this site live on{" "}
+    <a class="social-link" href="https://github.com/ciaranfinn">
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+      </svg>
+      GitHub
+    </a>
+    .
   </p>
 </section>

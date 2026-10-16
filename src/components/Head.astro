@@ -1,7 +1,7 @@
 ---
 import "../style/global.css";
 
-import { WEBSITE_TITLE, WEBSITE_DESCRIPTION } from "../config";
+import { WEBSITE_DESCRIPTION } from "../config";
 
 const {
   title,
@@ -41,14 +41,6 @@ const {
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={new URL(image, Astro.url)} />
-
-  <!-- RSS Link -->
-  <link
-    rel="alternate"
-    href="/rss.xml"
-    type="application/rss+xml"
-    title={WEBSITE_TITLE}
-  />
 
   <!-- Sitemap -->
   <link rel="sitemap" href="/sitemap-index.xml" />

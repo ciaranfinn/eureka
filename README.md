@@ -6,7 +6,7 @@ Built with [Astro](https://astro.build/), TypeScript, and CSS, and deployed with
 
 ## Run locally
 
-Use Node.js 20 (to match CI) and npm.
+Use Node.js 22 (to match CI) and npm.
 
 ```sh
 npm install
