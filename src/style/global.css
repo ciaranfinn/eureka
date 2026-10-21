@@ -334,7 +334,6 @@ img {
 
 .intro {
   padding: 0 0 1.5rem;
-  border-bottom: 1px solid var(--border-color);
   text-align: left;
 }
 
@@ -899,6 +898,7 @@ blockquote {
 footer {
   margin-top: 2.5rem;
   padding: 1.25rem 0 0;
+  border-top: 1px solid var(--border-color);
   text-align: center;
   color: var(--muted-color);
   font-size: 0.85rem;
