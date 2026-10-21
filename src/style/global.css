@@ -561,8 +561,28 @@ img {
 }
 
 .experience > h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
   margin: 0 0 0.6rem;
   font-size: clamp(1.4rem, 4vw, 1.75rem);
+}
+
+.section-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  color: var(--accent-color);
+  background: var(--surface-accent);
+  border: 1px solid var(--border-color);
+  border-radius: 0.55rem;
+}
+
+.section-icon svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: currentColor;
 }
 
 .company {
