@@ -513,7 +513,22 @@ img {
 
 .back-link {
   margin: 0 0 1rem;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+}
+
+.back-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--muted-color);
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  color: var(--heading-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 0.25em;
 }
 
 .resume-header {
