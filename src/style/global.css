@@ -335,6 +335,7 @@ img {
 .intro {
   padding: 0 0 1.5rem;
   border-bottom: 1px solid var(--border-color);
+  text-align: center;
 }
 
 .intro > p {
@@ -349,7 +350,7 @@ img {
 
 .intro h1 {
   max-width: 18ch;
-  margin: 0;
+  margin: 0 auto;
   font-size: clamp(2.55rem, 8vw, 4.4rem);
   font-weight: 780;
   letter-spacing: -0.055em;
@@ -367,7 +368,7 @@ img {
 
 .intro-lede {
   max-width: 58ch;
-  margin: 1.35rem 0 0;
+  margin: 1.35rem auto 0;
   color: var(--text-color);
   font-size: 1.08rem;
   line-height: 1.6;
@@ -381,6 +382,7 @@ img {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.6rem;
   margin: 1.25rem 0 0;
 }
