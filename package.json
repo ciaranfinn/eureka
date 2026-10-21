@@ -15,9 +15,11 @@
     "format:write": "prettier --write ."
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.11",
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.3.7",
     "prettier": "^3.9.9",
-    "prettier-plugin-astro": "^1.1.0"
+    "prettier-plugin-astro": "^1.1.0",
+    "typescript": "^6.0.3"
   }
 }
