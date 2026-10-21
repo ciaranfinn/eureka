@@ -459,15 +459,15 @@ img {
 }
 
 .icon-button--resume {
-  background: #2f9e6e;
-  border-color: #2f9e6e;
-  color: #ffffff;
+  background: var(--surface-color);
+  border-color: #8bc8aa;
+  color: #21865b;
 }
 
 .icon-button--resume:hover {
-  background: #21865b;
-  border-color: #21865b;
-  color: #ffffff;
+  background: #effaf4;
+  border-color: #5dad82;
+  color: #176b49;
 }
 
 .icon-button svg {
@@ -490,7 +490,7 @@ img {
 }
 
 .icon-button--resume:visited {
-  color: #ffffff;
+  color: #21865b;
 }
 
 @media (prefers-color-scheme: dark) {
