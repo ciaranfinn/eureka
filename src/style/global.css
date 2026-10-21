@@ -296,11 +296,71 @@ img {
   text-decoration: none;
 }
 
+.icon-button--email {
+  background: #b42318;
+  border-color: #b42318;
+  color: #ffffff;
+}
+
+.icon-button--email:hover {
+  background: #8e1c13;
+  border-color: #8e1c13;
+  color: #ffffff;
+}
+
+.icon-button--linkedin {
+  background: #0a66c2;
+  border-color: #0a66c2;
+  color: #ffffff;
+}
+
+.icon-button--linkedin:hover {
+  background: #004182;
+  border-color: #004182;
+  color: #ffffff;
+}
+
+.icon-button--github {
+  background: #24292f;
+  border-color: #24292f;
+  color: #ffffff;
+}
+
+.icon-button--github:hover {
+  background: #0d1117;
+  border-color: #0d1117;
+  color: #ffffff;
+}
+
 .icon-button svg {
   width: 0.98em;
   height: 0.98em;
   flex: 0 0 auto;
   fill: currentColor;
+}
+
+.icon-button--email:visited,
+.icon-button--linkedin:visited,
+.icon-button--github:visited {
+  color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon-button--github {
+    background: #f0f6fc;
+    border-color: #f0f6fc;
+    color: #1f2328;
+  }
+
+  .icon-button--github:hover {
+    background: #c9d1d9;
+    border-color: #c9d1d9;
+    color: #1f2328;
+  }
+
+  .icon-button--github:visited {
+    color: #1f2328;
+  }
 }
 
 .back-link {
