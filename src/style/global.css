@@ -297,38 +297,50 @@ img {
 }
 
 .icon-button--email {
-  background: #b42318;
-  border-color: #b42318;
+  background: #ea5b5b;
+  border-color: #ea5b5b;
   color: #ffffff;
 }
 
 .icon-button--email:hover {
-  background: #8e1c13;
-  border-color: #8e1c13;
+  background: #d94350;
+  border-color: #d94350;
   color: #ffffff;
 }
 
 .icon-button--linkedin {
-  background: #0a66c2;
-  border-color: #0a66c2;
+  background: #3b91d1;
+  border-color: #3b91d1;
   color: #ffffff;
 }
 
 .icon-button--linkedin:hover {
-  background: #004182;
-  border-color: #004182;
+  background: #2378b8;
+  border-color: #2378b8;
   color: #ffffff;
 }
 
 .icon-button--github {
-  background: #24292f;
-  border-color: #24292f;
+  background: #68737f;
+  border-color: #68737f;
   color: #ffffff;
 }
 
 .icon-button--github:hover {
-  background: #0d1117;
-  border-color: #0d1117;
+  background: #4f5964;
+  border-color: #4f5964;
+  color: #ffffff;
+}
+
+.icon-button--resume {
+  background: #2f9e6e;
+  border-color: #2f9e6e;
+  color: #ffffff;
+}
+
+.icon-button--resume:hover {
+  background: #21865b;
+  border-color: #21865b;
   color: #ffffff;
 }
 
@@ -341,7 +353,8 @@ img {
 
 .icon-button--email:visited,
 .icon-button--linkedin:visited,
-.icon-button--github:visited {
+.icon-button--github:visited,
+.icon-button--resume:visited {
   color: #ffffff;
 }
 
