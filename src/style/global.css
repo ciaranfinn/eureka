@@ -900,7 +900,7 @@ footer {
   margin-top: 2.5rem;
   padding: 1.25rem 0 0;
   border-top: 1px solid var(--border-color);
-  text-align: left;
+  text-align: center;
   color: var(--muted-color);
   font-size: 0.85rem;
 }
@@ -909,7 +909,7 @@ footer nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 footer .copyright {
