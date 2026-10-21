@@ -347,6 +347,36 @@ img {
   margin-top: 0.75rem;
 }
 
+.intro h1 {
+  max-width: 18ch;
+  margin: 0;
+  font-size: clamp(2.55rem, 8vw, 4.4rem);
+  font-weight: 780;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+
+.intro h1 .wave {
+  display: inline-block;
+  margin-left: 0.08em;
+  font-size: 0.62em;
+  letter-spacing: normal;
+  transform: rotate(-8deg);
+  vertical-align: 0.12em;
+}
+
+.intro-lede {
+  max-width: 58ch;
+  margin: 1.35rem 0 0;
+  color: var(--text-color);
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.intro > .pronunciation {
+  margin-top: 0.75rem;
+}
+
 .page-actions {
   display: flex;
   align-items: center;
