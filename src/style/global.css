@@ -897,17 +897,24 @@ blockquote {
 }
 
 footer {
+  margin-top: 2.5rem;
   padding: 1.25rem 0 0;
-  text-align: center;
+  border-top: 1px solid var(--border-color);
+  text-align: left;
   color: var(--muted-color);
   font-size: 0.85rem;
 }
 
 footer nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  color: color-mix(in srgb, var(--muted-color) 82%, transparent);
 }
 
 .title:hover {
