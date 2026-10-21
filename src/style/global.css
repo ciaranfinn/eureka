@@ -864,7 +864,7 @@ img {
 
   footer nav {
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   footer nav a {
@@ -872,7 +872,7 @@ img {
     align-items: center;
     min-height: 44px;
     margin-right: 0;
-    padding-inline: 0.75rem;
+    padding-inline: 0;
   }
 }
 
@@ -909,12 +909,17 @@ footer nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 footer .copyright {
   color: color-mix(in srgb, var(--muted-color) 82%, transparent);
+}
+
+footer .copyright::before {
+  margin: 0 0.5rem;
+  color: var(--border-color);
+  content: "·";
 }
 
 .title:hover {
