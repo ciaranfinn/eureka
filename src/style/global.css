@@ -673,7 +673,8 @@ img {
 }
 
 .role-meta,
-.role-location {
+.role-location,
+.role-grade {
   display: inline;
   margin: 0;
   font-size: 0.84rem;
@@ -688,6 +689,12 @@ img {
 .role-location {
   color: var(--muted-color);
   font-weight: 400;
+}
+
+.role-grade {
+  display: block;
+  color: var(--muted-color);
+  font-weight: 500;
 }
 
 .role-location::before {
@@ -857,7 +864,8 @@ img {
   }
 
   .role-meta,
-  .role-location {
+  .role-location,
+  .role-grade {
     display: block;
   }
 
