@@ -345,7 +345,7 @@ img {
 }
 
 .intro > p + p {
-  margin-top: 0.75rem;
+  margin-top: 1.5rem;
 }
 
 .intro h1 {
@@ -368,14 +368,14 @@ img {
 
 .intro-lede {
   max-width: 58ch;
-  margin: 1.35rem 0 0;
+  margin: 1.5rem 0 0;
   color: var(--text-color);
   font-size: 1.08rem;
   line-height: 1.6;
 }
 
 .intro > .pronunciation {
-  margin-top: 0.75rem;
+  margin: 0.65rem 0 0;
 }
 
 .page-actions {
