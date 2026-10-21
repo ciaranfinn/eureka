@@ -353,8 +353,8 @@ img {
   margin: 0;
   font-size: clamp(2.55rem, 8vw, 4.4rem);
   font-weight: 780;
-  letter-spacing: -0.055em;
-  line-height: 1;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
 }
 
 .intro h1 .wave {
@@ -375,7 +375,7 @@ img {
 }
 
 .intro > .pronunciation {
-  margin: 0.65rem 0 0;
+  margin: 0.9rem 0 0;
 }
 
 .page-actions {
