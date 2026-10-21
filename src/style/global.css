@@ -511,6 +511,19 @@ img {
   }
 }
 
+.home-actions .icon-button,
+.home-actions .icon-button:visited {
+  color: var(--heading-color);
+  background: var(--surface-color);
+  border-color: var(--border-color);
+}
+
+.home-actions .icon-button:hover {
+  color: var(--heading-color);
+  background: var(--surface-accent);
+  border-color: var(--accent-color);
+}
+
 .back-link {
   margin: 0 0 1rem;
   font-size: 0.9rem;
