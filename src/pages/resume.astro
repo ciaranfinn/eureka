@@ -1,0 +1,54 @@
+---
+import Experience from "../components/Experience.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Resume | Ciarán Finn"
+  description="Resume of Ciarán Finn, principal machine learning engineer."
+>
+  <p class="back-link">
+    <a href="/">Home</a>
+  </p>
+
+  <header class="resume-header">
+    <h1>Ciarán Finn</h1>
+    <p class="resume-title">Principal Machine Learning Engineer</p>
+    <p class="resume-meta">New York, New York, United States</p>
+    <p class="resume-contact">
+      <a href="mailto:me@ciaranfinn.dev">me@ciaranfinn.dev</a>
+      <span aria-hidden="true"> · </span>
+      <a href="https://www.linkedin.com/in/ciaranfinn">LinkedIn</a>
+      <span aria-hidden="true"> · </span>
+      <a href="https://github.com/ciaranfinn">GitHub</a>
+    </p>
+  </header>
+
+  <Experience />
+
+  <section class="experience" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+
+    <article class="company">
+      <header class="company-header">
+        <div>
+          <h3>
+            <a href="https://www.tcd.ie/">Trinity College Dublin</a>
+          </h3>
+        </div>
+      </header>
+      <ol class="roles">
+        <li>
+          <h4>Master in Computer Science (MCS), Computer Science</h4>
+          <p class="role-meta">2017 – 2018</p>
+          <p class="role-location">Distinction</p>
+        </li>
+        <li>
+          <h4>B.A. (Moderatorship), Computer Science</h4>
+          <p class="role-meta">2013 – 2017</p>
+          <p class="role-location">Dublin, Ireland</p>
+        </li>
+      </ol>
+    </article>
+  </section>
+</Layout>
