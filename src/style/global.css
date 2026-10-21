@@ -265,24 +265,34 @@ img {
 
 .page-actions {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1.15rem 0 0;
+  gap: 0.6rem;
+  margin: 1.25rem 0 0;
 }
 
 .icon-button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.35em;
-  padding: 0.38rem 0.78rem 0.38rem 0.68rem;
+  min-height: 2.5rem;
+  padding: 0.42rem 0.82rem 0.42rem 0.72rem;
   color: var(--background-color);
   background: var(--heading-color);
   border: 1px solid var(--heading-color);
   border-radius: 999px;
+  box-shadow: 0 3px 8px var(--shadow-color);
   font-size: 0.94rem;
   font-weight: 600;
+  letter-spacing: 0.005em;
   text-decoration: none;
   line-height: 1.2;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
 }
 
 .icon-button:visited {
@@ -294,6 +304,13 @@ img {
   background: var(--accent-color);
   border-color: var(--accent-color);
   text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px var(--shadow-color);
+}
+
+.icon-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 .icon-button--email {
