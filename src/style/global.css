@@ -875,7 +875,7 @@ img {
 
   footer nav {
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   footer nav a {
@@ -919,18 +919,18 @@ footer {
 footer nav {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.25rem;
   justify-content: center;
 }
 
-footer .copyright {
-  color: color-mix(in srgb, var(--muted-color) 82%, transparent);
+footer nav a {
+  margin-right: 0;
 }
 
-footer .copyright::before {
-  margin: 0 0.5rem;
-  color: var(--border-color);
-  content: "·";
+footer .copyright {
+  display: block;
+  color: color-mix(in srgb, var(--muted-color) 82%, transparent);
 }
 
 .title:hover {
