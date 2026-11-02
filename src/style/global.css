@@ -12,51 +12,51 @@ https://github.com/HermanMartinus/bearblog/blob/257b4d32150df0eed3334d4db7894f0f
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
   --font-scale: 1em;
-  --background-color: #f7f5ef;
+  --background-color: #0b1d31;
   --background-gradient: linear-gradient(
     145deg,
-    #faf9f5 0%,
-    #f4f6f2 55%,
-    #edf3f1 100%
+    #0b1d31 0%,
+    #102b45 55%,
+    #153b58 100%
   );
-  --surface-color: #fffdf8;
-  --surface-accent: #eef5f2;
-  --heading-color: #17342f;
-  --text-color: #425550;
-  --muted-color: #6e7e79;
-  --link-color: #176b5b;
-  --visited-color: #75599a;
-  --focus-color: #247a55;
-  --accent-color: #247a55;
-  --code-background-color: #e8eeeb;
-  --code-color: #17342f;
-  --blockquote-color: #425550;
-  --border-color: #d8e0dc;
-  --shadow-color: rgba(23, 52, 47, 0.08);
+  --surface-color: #142f47;
+  --surface-accent: #1b405b;
+  --heading-color: #f5f8fb;
+  --text-color: #d3e0ea;
+  --muted-color: #a7bac9;
+  --link-color: #8bd6ff;
+  --visited-color: #cbb8ec;
+  --focus-color: #6ed8cf;
+  --accent-color: #6ed8cf;
+  --code-background-color: #081625;
+  --code-color: #eaf2f7;
+  --blockquote-color: #d3e0ea;
+  --border-color: #36556d;
+  --shadow-color: rgba(0, 0, 0, 0.22);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #10231f;
+    --background-color: #081625;
     --background-gradient: linear-gradient(
       145deg,
-      #10231f 0%,
-      #132923 55%,
-      #172f29 100%
+      #081625 0%,
+      #0d2238 55%,
+      #12334d 100%
     );
-    --surface-color: #18312b;
-    --surface-accent: #203b34;
-    --heading-color: #f5f1e8;
-    --text-color: #d2ddd8;
-    --muted-color: #a5b7b0;
-    --link-color: #8ed8c7;
-    --visited-color: #c3ace4;
-    --focus-color: #73d6a5;
-    --accent-color: #73d6a5;
-    --code-background-color: #0b1b18;
-    --code-color: #e8eeeb;
-    --blockquote-color: #d2ddd8;
-    --border-color: #36554d;
+    --surface-color: #102a42;
+    --surface-accent: #173b56;
+    --heading-color: #f5f8fb;
+    --text-color: #d3e0ea;
+    --muted-color: #a7bac9;
+    --link-color: #8bd6ff;
+    --visited-color: #cbb8ec;
+    --focus-color: #6ed8cf;
+    --accent-color: #6ed8cf;
+    --code-background-color: #06111d;
+    --code-color: #eaf2f7;
+    --blockquote-color: #d3e0ea;
+    --border-color: #304e65;
     --shadow-color: rgba(0, 0, 0, 0.2);
   }
 }
@@ -85,8 +85,7 @@ body {
   min-height: 100vh;
   min-height: 100svh;
   text-align: left;
-  background-color: var(--background-color);
-  background-image: var(--background-gradient);
+  background: transparent;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.6;
@@ -431,48 +430,48 @@ img {
 }
 
 .icon-button--email {
-  border-color: #e4aaaa;
-  color: #b54747;
+  border-color: #e7a2aa;
+  color: #ffb7bf;
 }
 
 .icon-button--email:hover {
-  background: #fff5f5;
-  border-color: #d77d7d;
-  color: #9d3535;
+  background: #3b2934;
+  border-color: #f2a1ab;
+  color: #ffd8dc;
 }
 
 .icon-button--linkedin {
-  border-color: #a5c9e5;
-  color: #236fa8;
+  border-color: #82bce5;
+  color: #a8dcff;
 }
 
 .icon-button--linkedin:hover {
-  background: #f0f7fc;
-  border-color: #6ca9d4;
-  color: #185b8e;
+  background: #193b59;
+  border-color: #a2d9ff;
+  color: #d5efff;
 }
 
 .icon-button--github {
-  border-color: #b6c0c9;
-  color: #4f5964;
+  border-color: #9caebb;
+  color: #d8e2e9;
 }
 
 .icon-button--github:hover {
-  background: #f3f5f7;
-  border-color: #87929d;
-  color: #343b43;
+  background: #233c50;
+  border-color: #c1d0da;
+  color: #f3f7f9;
 }
 
 .icon-button--resume {
   background: var(--surface-color);
-  border-color: #8bc8aa;
-  color: #176b49;
+  border-color: #80d0a7;
+  color: #9ce8ba;
 }
 
 .icon-button--resume:hover {
-  background: #effaf4;
-  border-color: #5dad82;
-  color: #176b49;
+  background: #1b4a48;
+  border-color: #9be6bd;
+  color: #c5f5d7;
 }
 
 .icon-button svg {
@@ -483,19 +482,19 @@ img {
 }
 
 .icon-button--email:visited {
-  color: #b54747;
+  color: #ffb7bf;
 }
 
 .icon-button--linkedin:visited {
-  color: #236fa8;
+  color: #a8dcff;
 }
 
 .icon-button--github:visited {
-  color: #4f5964;
+  color: #d8e2e9;
 }
 
 .icon-button--resume:visited {
-  color: #176b49;
+  color: #9ce8ba;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -572,23 +571,20 @@ img {
   align-items: center;
   gap: 0.55rem;
   margin: 0 0 0.6rem;
-  font-size: clamp(1.4rem, 4vw, 1.75rem);
+  font-size: clamp(1.55rem, 4vw, 1.9rem);
 }
 
 .section-icon {
   display: inline-grid;
   place-items: center;
-  width: 1.9rem;
-  height: 1.9rem;
+  width: 1.75rem;
+  height: 1.75rem;
   color: var(--accent-color);
-  background: var(--surface-accent);
-  border: 1px solid var(--border-color);
-  border-radius: 0.55rem;
 }
 
 .section-icon svg {
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.25rem;
+  height: 1.25rem;
   fill: currentColor;
 }
 
