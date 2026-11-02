@@ -353,11 +353,12 @@ img {
 
 .intro h1 {
   max-width: 18ch;
-  margin: 0;
+  margin: 0 auto;
   font-size: clamp(2.55rem, 8vw, 4.4rem);
   font-weight: 780;
   letter-spacing: -0.035em;
   line-height: 1.08;
+  text-align: center;
 }
 
 .intro h1 .wave {
@@ -378,7 +379,8 @@ img {
 }
 
 .intro > .pronunciation {
-  margin: 0.9rem 0 0;
+  margin: 0.9rem auto 0;
+  text-align: center;
 }
 
 .page-actions {
